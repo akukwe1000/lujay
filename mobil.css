@@ -1,0 +1,76 @@
+@media screen and (max-width:600px) {
+    
+    .linkholder ul{
+        /* border: 2px solid brown; */
+        height: 100%;
+        width: 120px;
+        margin-left: 70px;
+        display: flex;
+        list-style: none; 
+        /* justify-content: space-between;
+        align-items: center; */
+      }
+
+body{
+    /* background: black; */
+}
+      
+      nav{
+        /* border: 2px solid blue; */
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        background: rgb(2, 2, 78);
+      }
+
+      /* main body starts here  */
+      .form{
+        background-color:rgb(2, 2, 78) ;
+        border-radius: 10px;
+        padding: 10px;
+        height: 220px;
+        width: 80%; 
+      }
+      .firstsec{
+        /* border: 2px solid tomato; */
+        /* height: 300px; */
+        /* margin-top: 10px; */
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        /* justify-content: space-evenly; */
+        align-items: center;
+      }
+      .rice{
+        /* border: 2px solid rgb(255, 71, 71); */
+        height: 220px;
+        width: 90%;
+        position: relative;
+        background: rgb(2, 2, 78);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+      
+      }
+
+
+
+
+
+      /* main body ends here  */
+
+      /* food page starts here  */
+
+      
+
+
+      /* food page ends here  */
+
+
+
+
+}

@@ -1,0 +1,240 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  /* background: rgb(59, 58, 58); */
+}
+.borderColour{
+  border: 2px solid tomato;
+  height: 50px;
+
+}
+header{
+  border: 3px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+nav{
+  /* border: 2px solid blue; */
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 30px;
+  background: rgb(2, 2, 78);
+}
+
+.lujlogo{
+  font-size: 30px;
+  display: flex;
+  color: white;
+}
+.lujlogo span{
+  /* border: 2px solid tomato; */
+  background: white;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.linkholder{
+  width: 200px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+
+}
+.linkholder ul{
+  /* border: 2px solid brown; */
+  height: 100%;
+  display: flex;
+  list-style: none; 
+  justify-content: space-between;
+  align-items: center;
+}
+.linkholder ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+/* main body starts here  */
+
+.mains{
+  /* border: 2px solid green; */
+  margin-top: 55px;
+}
+
+/* first section starts here */
+
+.firstSec {
+   /* border: 2px solid tomato; */
+   height: 300px;
+  background:linear-gradient(to right,   rgba(79, 30, 16, 0.4),rgba(30, 19, 17, 0.4)), url('./images/pexels-lukas-1352274.jpg') ;
+   /* background: url(./images/pexels-lukas-1352274.jpg) ; */
+   background-size: cover;
+   background-position: center;
+   padding: 70px 0 0 30px;
+}
+.Welcome{
+  color: white;
+  font-size: 50px;
+}
+.offer{
+  color: white;
+  font-size: 20px;
+}
+
+/* first section ends here */
+
+/* second section starts here */
+.secSection{
+  margin-top: 20px;
+  /* border: 2px solid tomato; */
+  /* height:600px ; */
+  display: flex;
+  justify-content: center;
+  width: 500px;
+}
+
+.fooMenWrite{
+  /* margin-left: 20px; */
+  font-size: 30px;
+  color:white;
+  text-align: center;
+}
+
+.img{
+  border-radius: 50%;
+  width: 100%;
+  height: 80%;
+}
+
+
+
+
+/* second section ends here */
+.general{
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px solid tomato; */
+  justify-content: center;
+}
+
+.form{
+  background-color:rgb(2, 2, 78) ;
+  border-radius: 10px;
+  padding: 10px;
+  height: 220px;
+  width: 40%; 
+}
+
+
+
+
+
+/* main body ends here  */
+
+/* footer starts here  */
+footer{
+  /* border: 2px solid black; */
+  /* height: 400px; */
+  padding-top: 30px;
+  background: rgb(16, 16, 108);
+  margin: 30px 0;
+}
+.footersec{
+  /* border: 2px solid red; */
+  /* height: 300px; */
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* padding: 30px 15px 30px 15px; */
+}
+/* .footersec div{
+  border: 2px solid blue;
+  height: 100%;
+  width: 200px;
+  padding: 10px 0 10px 0;
+} */
+.footerline{
+  height: 1px;
+  background: rgba(202, 200, 200,0.4);
+  width: 80%;
+  margin: 20px auto;
+}
+.termsofservice{
+  /* border: 2px solid green; */
+  height: 40px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+
+}
+.lower{
+  /* background: blue; */
+}
+.footersec{
+  /* background: blue; */
+}
+.footerk{
+  background: white;
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 5px 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+}
+.footerplug{
+  font-size: 25px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+}
+.fofirslistgroup ul{
+  list-style: none;
+  font-size: 20px;
+  color: white;
+}
+.fofirslistgroup li{
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.footIcon img{
+  width: 150px;
+  margin-top: 5px;
+  /* margin-bottom: 2px; */
+  border-radius: 5px;
+}
+.footlogowritup{
+  color: white;
+  margin-top: 30px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* font-size: 16px; */
+}
+.footLogo{
+ font-size: 30px;
+ /* font-weight: bold; */
+ color: white;
+}
+.footlogospan{
+  /* border: 2px solid tomato; */
+  padding: 0 5px 0 5px;
+  background: white;
+  color: black;
+}
+
+
+
+
+/* footer ends here  */
